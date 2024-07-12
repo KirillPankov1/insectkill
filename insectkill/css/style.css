@@ -1,0 +1,304 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: whitesmoke
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.zagolovok {
+    font-size: 60px;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+.slogan {
+    font-size: 30px;
+    margin: 5px 0;
+    line-height: 1.2;
+}
+
+/* main {
+    background-image: url('../photos/ispect1.jpeg');
+    background-size: cover;
+    background-position: top;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+main {
+    background-image: url('../templates/photos/ispect1.jpeg'); /* Замените на свой фон */
+    background-size: cover;
+    background-position: top;
+    min-height: 100vh;
+    padding: 60px 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.overlay {
+    background: rgba(245, 245, 245, 0.9); /* Полупрозрачный черный фон */
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.ycluga {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.ycluga h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.ycluga p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.ycluga a {
+    color: #d80000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ycluga a:hover {
+    text-decoration: underline;
+}
+
+.ycluga form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ycluga input[type="tel"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.ycluga button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ycluga button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+.contact-icons {
+    display: flex;
+    gap: 20px;
+    margin: 5px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: transform 0.3s;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp {
+    background-color: #25d366;
+}
+
+.telegram {
+    background-color: #0088cc;
+}
+
+.avito {
+    background-image: url('../templates/photos/авто.jpg');
+}
+
+.nomer a {
+    color: #000; /* цвет текста */
+    text-decoration: none; /* убрать подчеркивание */
+    font-weight: bold; /* сделать текст жирным */
+    font-size: 24px;
+}
+
+.nomer a:hover {
+    color: #007BFF; /* цвет текста при наведении */
+    text-decoration: underline; /* подчеркивание при наведении */
+    text-decoration: none;
+}
+
+
+
+
+footer {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.podval {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 1px;
+}
+
+.podval h2 {
+    font-size: 46px;
+    margin-top: 1px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.nomer {
+    margin-top: 0; /* Уменьшение верхнего отступа */
+    margin-bottom: 0; /* Уменьшение нижнего отступа */
+}
+
+.nomer a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.callback-form p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.callback-form form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.callback-form input[type="tel"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.callback-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.callback-form button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+.page-wrapper {
+    padding: 20px 0; /* Добавляем отступ сверху и снизу */
+    background: rgba(245, 245, 245, 0.9);
+}
+
+.cards-wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start; /* Изменение flex alignment */
+}
+
+.card {
+    background: rgba(245, 245, 245, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.description {
+    padding: 0 10px;
+}
+
+.blue-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.blue-button:hover {
+    background-color: #0056b3;
+}

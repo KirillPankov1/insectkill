@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSECTKILL</title>
+</head>
+<body>
+    <header>
+      <div class="conteiner">
+        <h1 class="zagolovok">INSECTKILL</h1>
+          <p class="slogan">Лучшая многолетняя компания на рынке!</p>
+          <p class="slogan">Гарантия и качество для каждого клиента!</p>
+      </div>
+      <div class="contact-icons">
+        <a href="https://wa.me/1234567890" class="icon whatsapp" target="_blank" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.avito.ru/sankt-peterburg/predlozheniya_uslug/dezinfektsiya_4176167439?utm_campaign=native&utm_medium=item_page_android&utm_source=soc_sharing_seller"
+        class="icon avito"
+        target="_blank"
+        title="Avito"
+        style="background-image: url('../templates/photos/авито.webp'); background-size: cover; background-position: center;">
+        </a>
+        <a href="https://t.me/insectskil1" class="icon telegram" target="_blank" title="Telegram">
+            <i class="fab fa-telegram-plane"></i>
+        </a>
+        <p class="nomer"><a href="tel:+79111795219">+7-911-179-52-19</a></p>
+      </div>
+    </header>
+    <main>
+      <div class="overlay">
+        <div class="ycluga">
+          <h1>Избавим вас от насекомых и грызунов недорого и с гарантией</h1>
+          <p>Несколько лет оказываем услуги дезобработки, а по простому травим вредных насекомых (клопов, тараканов, клещей и т.д.), профессионально и надежно.</p>
+          <p>Обслуживаем: квартиры, офисы, загородные дома, участки, лесопарки и т.д.</p>
+          <p>Свяжитесь с нами для получения консультации и заказа услуг по телефону <a href="tel:+79111795219">+7-911-179-52-19</a> или оставьте ваш номер для обратного звонка.</p>
+          <form action="#" method="post">
+            {% csrf_token %}
+            <input type="tel" name="phone" placeholder="Ваш номер телефона" required>
+            <button type="submit">Отправить</button>
+          </form>
+        </div>
+      </div>
+      <div class="page-wrapper">
+        <div class="cards-wrapper">
+          <div class="card">
+            <div class="image" style="background-image: url('../templates/photos/комната.png');"></div>
+            <div class="description">
+              <h2>Комната</h2>
+              <p>Холодный туман.
+                Комплексная обработка.
+                Никакого запаха после обработки.
+                Безопасно для людей и животных.
+                Гарантия до года.</p>
+                <a href="tel:+79111795219" class="blue-button">Позвонить</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image" style="background-image: url('../templates/photos/квартитра.png');"></div>
+            <div class="description">
+              <h2>Квартира</h2>
+              <p>Холодный туман
+                Комплексная обработка
+                Гипоаллергенные препараты
+                Безопасно для людей и животных
+                Гарантия до года</p>
+                <a href="tel:+79111795219" class="blue-button">Позвонить</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image" style="background-image: url('../templates/photos/частный дом.png');"></div>
+            <div class="description">
+              <h2>Частный дом</h2>
+              <p>Холодный туман
+                Комплексная обработка
+                Препараты без запаха
+                Безопасно для людей и животных
+                Гарантия до года</p>
+                <a href="tel:+79111795219" class="blue-button">Позвонить</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-wrapper">
+        <div class="cards-wrapper">
+          <div class="card">
+            <div class="image" style="background-image: url('../templates/photos/авто.jpg');"></div>
+            <div class="description">
+              <h2>Автомобили</h2>
+              <p>Обработка коммерческого и общественного транспорта (автобусы, троллейбусы, газели, фуры)
+                Без прерывания рабочего процесса
+                Отсутствие запаха после работы
+                Безопасность — 100%
+                Комплект документов</p>
+                <a href="tel:+79111795219" class="blue-button">Позвонить</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image" style="background-image: url('../templates/photos/юр лица.png');"></div>
+            <div class="description">
+              <h2>Юридические лица</h2>
+              <p>Холодный туман/горячий туман
+                Обработка любого вида коммерческих помещений
+                Без прерывания рабочего процесса
+                Отсутствие запаха после работы
+                Безопасность — 100%
+                Комплект документов</p>
+                <a href="tel:+79111795219" class="blue-button">Позвонить</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="podval">
+          <h2>Контактная информация</h2>
+          <div class="footer-content">
+              <div class="contact-info">
+                  <p class="nomer"><a href="tel:+79111795219">+7-911-179-52-19</a></p>
+              </div>
+              <div class="callback-form">
+                  <p class="text">Если вам необходима подробная консультация с профессиональным дезинфектором,
+                    оставьте ваши контактные данные, мы свяжемся и подробно проконсультируем!</p>
+                  <form action="#" method="post">
+                    {% csrf_token %}
+                      <input type="tel" name="phone" placeholder="Ваш номер телефона" required>
+                      <button type="submit">Отправить</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>
